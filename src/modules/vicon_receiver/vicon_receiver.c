@@ -1,5 +1,5 @@
 /*
- * io_test.c
+ * vicon_receiver.c
  *
  *  Created on: Nov 10, 2014
  *      Author: svankoot
@@ -20,9 +20,9 @@
 
 #define IS_ECHO 0
 
-__EXPORT int io_test_main(int argc, char *argv[]);
+__EXPORT int vicon_receiver_main(int argc, char *argv[]);
 
-int io_test_main(int argc, char *argv[])
+int vicon_receiver_main(int argc, char *argv[])
 {
 	/*
 	// Advertise/Publish to gps position topic
