@@ -7,8 +7,8 @@
 	* Used …modules/mc_pos_control/modules.mk as starting point
 * src/modules/vicon_receiver/vicon_receiver.c
 	* Custom app to receive vicon data via XBee on Serial 5
-	* In the future, will use mavlink. Sample code for starting mavlink on SERIAL4 (see “pixhawk.org/firmware/apps/mavlink” for more details:
-    	* mavlink stream -d /dev/ttyS6 -s CUSTOM_STREAM_NAME -r 50
+	* In the future, will use mavlink. Sample code for starting mavlink on SERIAL4 (see [mavlink](pixhawk.org/firmware/apps/mavlink) for more details:
+    	* <code>mavlink stream -d /dev/ttyS6 -s CUSTOM_STREAM_NAME -r 50</code>
 * src/modules/vicon_receiver/modules.mk
 	* see ‘modules.mk’ above...
 
