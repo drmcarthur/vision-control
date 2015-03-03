@@ -1,7 +1,7 @@
 /*
- * vicon_pos_control.c
+ * mc_vicon_pos_control.c
  *
- *  Created on: Nov 10, 2014
+ *  Created on: Mar 3, 2015
  *      Author: dmcarth
  */
 #include <nuttx/config.h>
@@ -18,9 +18,9 @@
 #include <uORB/topics/satellite_info.h>
 #include <drivers/drv_hrt.h>
 
-__EXPORT int vicon_pos_control_main(int argc, char *argv[]);
+__EXPORT int mc_vicon_pos_control_main(int argc, char *argv[]);
 
-int vicon_pos_control_main(int argc, char *argv[])
+int mc_vicon_pos_control_main(int argc, char *argv[])
 {
 	/*
 	// Advertise/Publish to gps position topic
