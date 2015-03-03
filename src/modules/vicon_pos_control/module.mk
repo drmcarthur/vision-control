@@ -1,2 +1,2 @@
 MODULE_COMMAND 	= vicon_pos_control
-SRCS 			= vicon_pos_control.c
+SRCS 			= vicon_pos_control.cpp
