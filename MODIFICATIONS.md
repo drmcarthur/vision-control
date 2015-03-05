@@ -15,6 +15,8 @@
 ### MODIFY FILES ###
 * makefiles/config_px4fmu-v2_default.mk
 	* Add mc_vicon_pos_control under Vehicle Control
+* ROMFS/px4fmu_common/init.d/rc.mc_apps
+	* Change 'mc_pos_control start' to 'mc_vicon_pos_control start'
 
 ### BUILD INSTRUCTIONS ###
 * First time (use -j6 to run builder with 6 threads):
