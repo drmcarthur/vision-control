@@ -32,7 +32,7 @@
 
 ### GIT COMMANDS ###
  * Clone
-	*<code>git clone https://github.com/drmcarthur/vision-control.git</code>
+	* <code>git clone https://github.com/drmcarthur/vision-control.git</code>
  * Commit
  	* If you <i>only</i> modified existing files, you can use the "-a" flag to stage all changes automatically (this detects modified and/or removed files): 
  		* <code>git commit -a -m "Short description of this commit"</code>
