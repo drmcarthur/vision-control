@@ -29,3 +29,15 @@
 	  </code></pre>
 * Subsequent builds:
 	* <code>make -j6 upload px4fmu-v2_default</code>
+
+### GIT COMMANDS ###
+ * Clone
+	*<code>git clone https://github.com/drmcarthur/vision-control.git</code>
+ * Commit
+ 	* If you <i>only</i> modified existing files, you can use the "-a" flag to stage all changes automatically (this detects modified and/or removed files): 
+ 		* <code>git commit -a -m "Short description of this commit"</code>
+ 	* If you add one or more files, you should stage the file to be commited before calling <code>git commit</code>:
+ 		* <code>git add "new filename"</code>
+ * Push
+ 	* To push the changes from your local copy (on your computer) to the master online:
+ 		* <code>git push origin master</code>	
